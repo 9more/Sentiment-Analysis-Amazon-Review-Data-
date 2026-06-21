@@ -1,5 +1,5 @@
 ## Amazon Reviews Sentiment Analysis with NLP and Machine Learning
-Link to my repo containing other data science projects: [click the link] (https://github.com/9more/Diabetes-Detection-)[;](https://github.com/9more/test_repo)[and]
+Link to my repo containing other data science projects: [click the link] (https://github.com/9more/Diabetes-Detection-) [;](https://github.com/9more/test_repo)
 ### Project Overview
 This project analyses customer reviews from the Amazon Reviews dataset available on Kaggle to predict sentiment using Natural Language Processing (NLP) and traditional machine learning techniques.
 The objective is to transform unstructured text data into meaningful numerical representations and build an optimised classification pipeline capable of accurately identifying customer sentiment.
