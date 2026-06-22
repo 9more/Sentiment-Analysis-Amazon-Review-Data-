@@ -2,7 +2,7 @@
 Link to my repo containing other data science projects:
 * https://github.com/9more/Spam-Filtering  
 * https://github.com/9more/Diabetes-Detection-
-* link https://github.com/9more/test_repo
+* https://github.com/9more/test_repo
 
 ## Project Overview
 
