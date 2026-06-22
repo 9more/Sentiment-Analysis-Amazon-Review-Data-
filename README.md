@@ -1,6 +1,8 @@
 ## Amazon Reviews Sentiment Analysis with NLP and Machine Learning
-Link to my repo containing other data science projects: click the link https://github.com/9more/Spam-Filtering  
-,diabetes detector: https://github.com/9more/Diabetes-Detection- and for other projects, click this link https://github.com/9more/test_repo
+Link to my repo containing other data science projects:
+* https://github.com/9more/Spam-Filtering  
+* https://github.com/9more/Diabetes-Detection-
+* link https://github.com/9more/test_repo
 
 ## Project Overview
 
