@@ -37,7 +37,7 @@ Raw CSV files were processed and cleaned using Pandas to ensure data quality. Ke
 
 Text preprocessing included:
 
-* Lowercasing
+** Lowercasing
 * Removing punctuation and special characters
 * Stop-word removal
 * Tokenisation
