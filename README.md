@@ -1,101 +1,86 @@
 ## Amazon Reviews Sentiment Analysis with NLP and Machine Learning
 Link to my repo containing other data science projects: click the link https://github.com/9more/Diabetes-Detection-
 , spam filtering https://github.com/9more/Spam-Filtering and for other projects, click this link https://github.com/9more/test_repo
-### Project Overview
-This project analyses customer reviews from the Amazon Reviews dataset available on Kaggle to predict sentiment using Natural Language Processing (NLP) and traditional machine learning techniques.
-The objective is to transform unstructured text data into meaningful numerical representations and build an optimised classification pipeline capable of accurately identifying customer sentiment.
-The project demonstrates expertise in:
-•	Data ingestion and preprocessing
-•	Text cleaning and transformation
-•	Feature engineering using NLP techniques
-•	Machine learning model development and optimisation
-•	Pipeline automation and hyperparameter tuning
-### Dataset
-The dataset was sourced from the Kaggle Amazon Reviews collection and contains customer review text alongside associated sentiment labels.
-Key features include:
-•	Review text
-•	Review ratings
-•	Sentiment labels
-•	Product metadata (where available)
-### Technical Stack
-•	Python
-•	Pandas
-•	NumPy
-•	Scikit-learn
-•	NLP
-•	CSV processing
-•	Jupyter Notebook
-### Project Workflow
-#### Data Ingestion and Cleaning
-The workflow begins with processing raw CSV files to ensure the data is suitable for analysis within Pandas.
-Key preprocessing steps include:
-•	Loading and validating CSV files
-•	Handling malformed records and inconsistent formatting
-•	Removing duplicate entries
-•	Managing missing values
-•	Standardising text encoding
-•	Cleaning and normalising review text
-The cleaned dataset is then loaded into Pandas for downstream processing.
-Natural Language Processing (NLP)
-A comprehensive NLP pipeline was developed to convert unstructured review text into machine-readable features.
-#### Text Preprocessing
-The preprocessing stage includes:
-•	Lowercasing text
-•	Removing punctuation and special characters
-•	Eliminating stop words
-•	Tokenisation
-•	Text normalisation
-#### Feature Engineering
-Two complementary vectorisation techniques were combined to capture both term frequency and term importance:
-CountVectorizer: Converts text into a matrix of token counts.
-TF-IDF (Term Frequency–Inverse Document Frequency): Weighs terms according to their relevance across the corpus.
-This hybrid approach improves the model's ability to distinguish meaningful patterns within customer reviews while reducing the influence of common, less informative words.
-#### Machine Learning Pipeline
-An end-to-end Scikit-learn pipeline was implemented to automate preprocessing, feature extraction, model training, and evaluation.
+# Amazon Reviews Sentiment Analysis
 
-The pipeline consists of:
-1. CSV data ingestion and cleaning
-2. Pandas-based preprocessing
-3. Text embedding using CountVectorizer and TF-IDF
-4. Model training and evaluation
-5. Hyperparameter optimisation using GridSearchCV
-Models Evaluated
-The following machine learning algorithms were assessed:
-•	Random Forest Classifier
-•	Support Vector Machine (SVM)
-•	K-Nearest Neighbours (KNN)
-### Hyperparameter Tuning
-GridSearchCV was used to systematically evaluate multiple model configurations and identify the optimal combination of:
-•	Vectorisation parameters
-•	Feature extraction settings
-•	Model hyperparameters
-This approach ensures robust model selection and maximises predictive performance.
-Results
+## Project Overview
 
-The project compares the performance of multiple classification algorithms using evaluation metrics such as:
-F1-Score
-Confusion Matrix
-The best-performing model was selected based on cross-validated performance metrics obtained through GridSearchCV.
+This project analyses customer reviews from the Kaggle Amazon Reviews dataset to predict sentiment using Natural Language Processing (NLP) and machine learning. The objective is to transform unstructured text into meaningful numerical features and build an optimised classification pipeline for accurate sentiment prediction.
 
-### Key Skills Demonstrated
-•	Natural Language Processing (NLP)
-•	Text classification
-•	Feature engineering
-•	CountVectorizer
-•	TF-IDF vectorisation
-•	Scikit-learn Pipelines
-•	GridSearchCV
-•	Hyperparameter optimisation
-•	Data cleaning and preprocessing
-•	Model evaluation
-•	Python programming
-•	Pandas data manipulation
-### Future Improvements
-Potential enhancements include:
-•	Implementing word embeddings such as Word2Vec or GloVe
-•	Exploring transformer-based models such as BERT
-•	Deploying the model as an API
-•	Building an interactive dashboard for sentiment analysis
-•	Adding experiment tracking and model versioning
-### Author
-Developed as part of a machine learning and NLP portfolio project focused on extracting actionable insights from customer feedback at scale.
+The project demonstrates expertise in data preprocessing, NLP, feature engineering, machine learning, and pipeline automation.
+
+## Dataset
+
+The dataset contains customer review text, sentiment labels, review ratings, and product metadata where available.
+
+## Technical Stack
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Jupyter Notebook
+
+## Workflow
+
+### Data Ingestion and Preprocessing
+
+Raw CSV files were processed and cleaned using Pandas to ensure data quality. Key steps included:
+
+* Handling malformed records and inconsistent formatting
+* Removing duplicates
+* Managing missing values
+* Standardising text encoding
+* Cleaning and normalising review text
+
+### Natural Language Processing
+
+Text preprocessing included:
+
+* Lowercasing
+* Removing punctuation and special characters
+* Stop-word removal
+* Tokenisation
+* Text normalisation
+
+### Feature Engineering
+
+Review text was transformed into machine-readable features using:
+
+* **CountVectorizer** for token frequency extraction
+* **TF-IDF** to weight terms by importance across the corpus
+
+### Machine Learning Pipeline
+
+An end-to-end Scikit-learn pipeline automated preprocessing, feature extraction, model training, and evaluation.
+
+Models evaluated:
+
+* Random Forest Classifier
+* Support Vector Machine (SVM)
+* K-Nearest Neighbours (KNN)
+
+### Hyperparameter Optimisation
+
+GridSearchCV was used to optimise vectorisation settings and model hyperparameters, with model performance assessed using cross-validation, F1-score, and confusion matrices.
+
+## Key Skills Demonstrated
+
+* Natural Language Processing (NLP)
+* Text Classification
+* CountVectorizer and TF-IDF
+* Scikit-learn Pipelines
+* GridSearchCV
+* Feature Engineering
+* Data Cleaning and Preprocessing
+* Model Evaluation
+
+## Future Improvements
+
+* Implement Word2Vec, GloVe, or transformer models such as BERT
+* Deploy the model as an API
+* Build an interactive sentiment analysis dashboard
+* Add experiment tracking and model versioning
+
+## Author
+Developed as a portfolio project focused on extracting actionable insights from customer feedback at scale.
